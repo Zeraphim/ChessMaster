@@ -1,6 +1,13 @@
+html,
+body {
+    margin: 0;
+    /* your other styles */
+}
+
 html {
     background-color: rgb(33, 33, 33);
-    ;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .Main {
@@ -13,6 +20,8 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .title {
